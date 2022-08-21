@@ -7,9 +7,9 @@ export default class LoginForm extends React.Component {
                 <div class="row border border-dark pb-1">
                     <h3>Log In</h3>
                     <div class="col text-center ">
-                        <input type="text" class="form-control bg-dark " placeholder="username"></input>
+                        <input type="text" class="form-control bg-dark text-light" placeholder="username"></input>
                         <br></br>
-                        <input type="password" class="form-control bg-dark" placeholder="password"></input>
+                        <input type="password" class="form-control bg-dark text-light" placeholder="password"></input>
                         <br></br>
                         <button class="btn btn-success form-control">Log In</button>
                     </div>
